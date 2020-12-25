@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="https://kit.fontawesome.com/279da6745c.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <title>Gold Rush</title>
+</head>
+<body>
+
+    <div class='content-container'>
+        <h1 class='container'>GOLD RUSH</h1>
+        <h2 class='subTitle'>THE GAME</h2>
+    </div>
+
+
+    <div id = "container">
+
+        <div id = 'board'></div>
+
+        <div class="userInput">
+
+          <div id = 'player1'>
+              <h3>Player 1</h2>
+              <h3 class='score'>Score: 0</h3>
+          </div>
+
+          <div class="start">
+
+            <div class="row-col">
+
+            <div id ="rowInputDiv">
+              <label for="rowInput">Rows: </label>
+              <input id='rowInput' type="text">
+            </div>
+
+            <div id ="colInputDiv">
+              <label for="colInput">Columns: </label>
+              <input id='colInput' type="text">
+            </div>
+
+            </div>
+
+            <div id='btn'><button id='generateBoard'>START</button></div>
+
+
+          </div>
+  
+
+          <div id = 'player2'>
+            <h3>Player 2</h3>
+            <h3 class='score'>Score: 0</h3>
+          </div>
+        
+        </div>
+
+      </div>
+  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="Matrix.js"></script>
+    <script src="GoldRush.js"></script>
+    <script src="Renderer.js"></script>
+    <script src="main.js"></script>
+    
+</body>
+</html>

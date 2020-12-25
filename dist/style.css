@@ -1,0 +1,204 @@
+body {
+    font-family: "Lato", sans-serif;
+    margin: 10px;
+    background-color: gainsboro;
+}
+h1{
+    text-align: center;
+    text-align: center;
+    color: #7c795d;
+    font-family: 'Trocchi', serif;
+    font-size: 45px;
+    font-weight: normal; 
+    line-height: 48px; 
+}
+
+.content-container{
+    background-color: #0a1f18;
+}
+.subTitle { 
+    font-size: 20px; 
+    font-weight: 300; 
+    color: #ffcc66; 
+    font-weight: bold;
+    text-align: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25em;
+}
+
+#container{
+    
+    display: grid;
+    grid-template-rows: 10fr 1fr;
+    height: 85vh;
+ 
+}
+
+#board{ 
+    display: grid;
+    border: 5px solid lightgray;
+    margin: 10px;
+}
+
+.userInput{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #c5cec8;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0 9px #999;
+
+}
+
+.start{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.row-col{
+    align-self: center;
+    justify-self: center;
+}
+
+#btn{
+    align-self: center;
+    justify-self: center;
+    margin-top: 10px;
+}
+
+#player1{
+    align-self: center;
+    justify-self: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(167, 16, 66);
+}
+
+.score{
+    color: rgb(17, 14, 167);
+}
+
+#player2{
+    align-self: center;
+    justify-self: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(167, 16, 66);
+
+}
+
+#winDiv{
+    position: absolute;
+    margin: 190px;
+    left: 325px;
+    margin-right: 60px;
+}
+
+#win{
+    opacity: 90%;
+    color: darkorange;
+    font-size: 3em;
+}
+
+#countDown{
+    position: absolute;
+    margin: 190px;
+    left: 425px;
+    margin-right: 60px;
+    opacity: 85%;
+    color: darkorange;
+    font-size: 8em;
+}
+
+
+
+.brick {    
+    
+    background-image: url("https://banner2.cleanpng.com/20180326/iqe/kisspng-pac-man-ghosts-video-game-pac-man-5ab90430025437.3519429715220746720096.jpg");
+    background-repeat: no-repeat;
+    background-size: 50px;
+    background-position: 50% 50%;
+    border: 1px solid black;
+}
+
+.path{
+    display: grid;
+    border: 1px solid black;
+    justify-items: center;
+    align-items: center;
+    background-image: url("https://goldrush-thegame.com/wp-content/uploads/2018/12/Replacing-Broken-Drill.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+input{
+    font-size:1.3em; 
+    padding:.5em;
+    margin-top: 20px;
+    border-radius: 3px;
+}
+
+label {
+    color: rgb(133, 131, 22);
+    
+}
+
+#rowInputDiv{
+    display: grid;
+    grid-template-columns:repeat(2, 1fr);
+    margin: auto;
+    margin-top: 20px;
+}
+
+#colInputDiv{
+    display: grid;
+    grid-template-columns:repeat(2, 1fr);
+    margin: auto;
+    margin-top: 20px;
+}
+
+
+input{
+    height: 20px;
+    width: 80px;
+}
+
+#generateBoard{
+    margin: auto;
+    align-self: center;
+    justify-self: center;
+    margin: 10px;
+}
+
+
+#generateBoard {
+    padding: 10px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #0b662e ;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    margin-top: 10px;
+    align-self: center;
+    justify-self: center;
+}
+
+#generateBoard:hover {
+    background-color:#0a4634
+}
+
+#generateBoard:active {
+    background-color:#0a4634;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+
