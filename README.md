@@ -2,7 +2,7 @@
 
 #### A web game for 2 players.
 
-To win each player needs to collect as many coins 🐲 as he can, and avoid getting in walls 
+To win each player needs to collect as many coins as he can, and avoid getting in walls 
 
 The thought of creating this game was to implement the idea of matrix data structure in a fun way.
 
