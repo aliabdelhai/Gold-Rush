@@ -17,8 +17,6 @@ Player 2: `I`, `K`, `J`, `L`
 
 ## How to Use
 
-#### [Play Online](https://mk-dragon-rush.herokuapp.com/)
-
 ### To run on localhost:
 
 1. run:
