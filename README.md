@@ -14,6 +14,7 @@ Player 1: `W`, `S`, `A`, `D`<br>
 Player 2: `I`, `K`, `J`, `L`
 
 ---
+## [Try it🍿]
 
 ## How to Use
 
@@ -22,16 +23,28 @@ Player 2: `I`, `K`, `J`, `L`
 1. run:
 
 ```
-npm install
-npm start
+node server
 ```
 
 2. open `http://localhost:4000` in your browser.
 3. choose the size of the board matrix (rows and columns)
 4. Enjoy 🕹
 
+### Screenshots
+
+## <p align="center"><img src="https://res.cloudinary.com/dnngdbnuq/image/upload/v1612436217/Screen_Shot_2021-02-04_at_12.55.21_PM_dlarxb.png" width="300" /> <img src="https://res.cloudinary.com/dnngdbnuq/image/upload/v1612436208/Screen_Shot_2021-02-04_at_12.55.58_PM_wypoqy.png" width="300"> </p>
+
+
 
 ### Tools and Libraries
 
 - Client-Side: jQuery, Handlebars.
 - Server: NodeJs with Express
+
+---
+
+### To Do
+
+- choosing player name and image
+- enable remote playing (socket io)
+- make better styles
