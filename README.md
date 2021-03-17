@@ -32,7 +32,7 @@ node server
 
 ### Screenshots
 
-## <p align="center"><img src="https://res.cloudinary.com/dnngdbnuq/image/upload/v1612436217/Screen_Shot_2021-02-04_at_12.55.21_PM_dlarxb.png" width="300" /> <img src="https://res.cloudinary.com/dnngdbnuq/image/upload/v1612436208/Screen_Shot_2021-02-04_at_12.55.58_PM_wypoqy.png" width="300"> </p>
+## <p align="center"><img src="https://res.cloudinary.com/dnngdbnuq/image/upload/v1612436205/Screen_Shot_2021-02-04_at_12.56.10_PM_tmd5hv.png" width="300" /> <img src="https://res.cloudinary.com/dnngdbnuq/image/upload/v1612436208/Screen_Shot_2021-02-04_at_12.55.58_PM_wypoqy.png" width="300"> </p>
 
 
 
